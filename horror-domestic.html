@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOVIE RECOMENDATION | Domestic horror movies </title>
+<link rel="icon" type="image/x-icon" href="icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta charset="UTF-8">
+<meta name="keywords" content="Turkey tour, holiday, hotel, ">
+<meta name="description" content="Website of Yeditepe University">
+<meta name="author" content="Yagmur dere">
+
+<style>
+    body{
+      margin: 10px;
+      background-color:darkgray;
+    }
+    h1{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    p{
+      font-size: 20px;
+      margin-left:5px;
+    }
+    iframe{
+      float:left; 
+      margin-right :10px; 
+      margin-left: 10px; 
+      border:darkcyan 5px solid;
+    }
+    img{
+      border: darkcyan 5px solid;
+      margin: 6px;
+    }
+    ul.linkler{
+      list-style-type: none;
+      margin: 0px;
+      padding: 10px;
+      overflow: auto;
+      height: 40px;
+      background-color:darkcyan;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    ul.linkler li {
+      float: left;
+    }
+    ul.linkler li a, .altmenu-btn {
+      display: block;
+      color:rgb(4, 4, 58);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    ul.linkler li a:hover:not(.active), .altmenu:hover .altmenu-btn {
+      text-decoration: underline;
+      color:rgb(226, 190, 135);
+    }
+    ul.linkler li a.active {
+      color:orangered;
+      text-decoration: underline;
+    }
+    li.altmenu {
+      display: block;
+    }
+    .altmenu-icerik {
+      display: none;
+      position: absolute;
+      background-color:darkcyan;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .altmenu-icerik a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .altmenu-icerik a:hover {
+      color:black;
+    }
+    .altmenu:hover .altmenu-icerik {
+      display: block;
+    }
+    div.filmler{
+      border:6px  darkcyan solid;
+      height:420px;
+      margin-top: 4px;
+    }
+    span.baslıklar{
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      float:left;
+      color:rgb(4, 4, 58);
+    }
+    @media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    div.filmler{width:100%; height: 100%;}
+    p{margin-left:auto;margin-right: auto;}
+    
+}
+div.filmler a{
+  background-color:darkcyan;
+  color:rgb(4, 4, 58);
+  padding: 4px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+div.filmler a:hover{
+  opacity: 0,6;
+  color:rgb(226, 190, 135);
+}
+div.filmler h1{
+  color:rgb(4, 4, 58);
+}
+</style>
+</head>
+
+
+
+<body>
+  <ul class="linkler">
+    <li><a href="ındex.html">ABOUT US</a></li>
+    <li><a href="history.html">HISTORY</a></li>
+    <li class="altmenu">
+      <a href="foreign.html" class="altmenu-btn">FOREIGN MOVIES</a>
+      <div class="altmenu-icerik">
+        <a href="actıon-foreign.html">Action</a>
+        <a href="comedy-foreign.html">Comedy</a>
+        <a href="horror-foreign.html">Horror</a>
+        <a href="rommance-foreign.html">Romance</a>
+        <a href="biography-foreign.html">Bıography</a>
+      </div>        
+    </li>
+    <li class="altmenu">
+        <a href="domestic.html" class="altmenu-btn active">DOMESTIC MOVIES</a>
+        <div class="altmenu-icerik">
+          <a href="actıon-domestic.html">Action</a>
+          <a href="comedy-domestic.html">Comedy</a>
+          <a href="horror-domestic.html" class="active">Horror</a>
+          <a href="rommance-domestic.html">Romance</a>
+          <a href="biography-domestic.html">Biography</a>
+        </div>        
+    </li>
+    <li><a href="yeşilçam.html">YESILCAM</a></li>
+    <li><a href="film-series.html">FILM SERIES</a></li>
+    <li><a href="cinema.html">CINEMAS</a></li>
+    <li><a href="help_us.html">HELP US</a></li>
+  </ul>
+
+<h1 style="color:orangered; text-align:center; text-decoration: underline;">THE DOMESTIC HORROR MOVIES THAT I RECOMMEND TO YOU</h1>
+
+<div class="filmler">
+  <img src="güzelliğin_portresi.jpg" width="250" height="400" style="float:right;">
+  <h1 style="text-align: center; text-decoration: underline;">Güzelliğin Portresi(2019)</h1>
+  <p> &nbsp; April, a young woman, has not met with her father for many years. However, after receiving an important news about his father, he takes a break at the father's house with his wife and daughter. April, who has returned to the mansion she left by running away years ago, witnesses strange situations here. April is forced to face her past, which she thinks she has escaped and survived, when she arrives at the mansion, during which she is subjected to questioning by the police, who are trying to solve the mystery about her father. Feeling trapped in a corner, April has to solve the mystery of the mansion in order to protect herself and her family.</p>
+  <iframe width="350" height="190" src="https://www.youtube.com/embed/xsL2u2ZUJ4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p><span class="baslıklar">Stars:</span>&nbsp; Melisa Şenolsun / Hilal --- Birkan Sokullu / Özgür --- Burçin Terzioğlu / Nisan --- Gizem Soysaldı / Vuslat</p>
+  <h1 style="float:left;">IMDB Rating:<span style="color:orangered; text-decoration:none;">&nbsp; 6.3/10</span></h1>
+  <img src="star.jpg" width="190" height="120"  >
+</div>
+
+<div class="filmler">
+  <img src="siccin.jpg" width="250" height="400" style="float:right;">
+  <h1 style="text-align: center; text-decoration: underline;">Siccin(2014)</h1>
+  <p> &nbsp;In the movie Siccin, which has the meaning of a notebook in which the sins of the infidels are recorded as a word meaning, it is about the fact that Öznur's aunt, whom he has loved since childhood, had a spell on Nisa, the wife of Kudret, and the genie captured Nisa, in order to be with his son Kudret.</p>
+  <iframe width="350" height="190" src="https://www.youtube.com/embed/v2Ay_K2zlR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://www.google.com/search?q=Siccin&source=lmns&bih=617&biw=1366&hl=en&sa=X&ved=2ahUKEwiyksXbpMH3AhVdg_0HHfQ2AAAQ_AUoAHoECAEQAA" target="_blank">You can see other Siccin movies here</a>
+  <p><span class="baslıklar">Stars:</span>&nbsp;Merve Ateş / Hilal, Efsun, Hale, ... ---  Adnan Koç / Orhan, Orhan --- Ece Baykal / Ece Edibe Baykal</p>
+  <h1 style="float:left;">IMDB Rating:<span style="color:orangered; text-decoration:none;">&nbsp; 6.0/10</span></h1>
+  <img src="star.jpg" width="190" height="120" >
+</div>
+
+<div class="filmler">
+  <img src="dabbe.jpg" width="250" height="400" style="float:right;">
+  <h1 style="text-align: center; text-decoration: underline;">D@bbe(2006)</h1>
+  <p> &nbsp; Dabbe is a Turkish horror film produced, directed and written by Hasan Karacadağ. The film is about Dabbe'tul Arz, which is set in Surah Neml in the Qur'an, where religious scholars cannot meet on common ground about what it is, and interprets it as an internet network.</p>
+  <iframe width="350" height="190" src="https://www.youtube.com/embed/4asXpa0nBoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://www.google.com/search?q=dabbe&ei=_AxwYqDFLaCVxc8PnIO2oAc&ved=0ahUKEwigs66RpMH3AhWgSvEDHZyBDXQQ4dUDCA4&uact=5&oq=dabbe&gs_lcp=Cgdnd3Mtd2l6EAMyBAguEEMyBAguEEMyBAgu" target="_blank">You can see other D@bbe movies here</a>
+  <p><span class="baslıklar">Stars:</span>&nbsp;Fulya Candemir 7 Sema --- Murat Seviş / Ziya --- Ebru Aykaç / Hande --- Sabri Tekinalp / Hande'nin Amcası --- Ümit Acar / Polis</p>
+  <h1 style="float:left;">IMDB Rating:<span style="color:orangered; text-decoration:none;">&nbsp; 5.4/10</span></h1>
+  <img src="star5.jpg" width="190" height="120"  >
+</div>
+
+<footer style="background-color:darkcyan; padding:10px; margin-top: 5px; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:rgb(4, 4, 58); font-size: 20px;">Copyright &copy; Yağmur Dere</footer>
+</body>
+</html>
+
+

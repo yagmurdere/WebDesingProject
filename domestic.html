@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOVIE RECOMENDATION | Domestic Movies </title>
+<link rel="icon" type="image/x-icon" href="icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta charset="UTF-8">
+<meta name="keywords" content="Turkey tour, holiday, hotel, ">
+<meta name="description" content="Website of Yeditepe University">
+<meta name="author" content="Yagmur dere">
+
+<style>
+    body{
+      margin: 10px;
+      background-color:darkgray;
+    }
+    h1{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:orangered;
+      text-decoration: underline;
+      text-align: center;
+      background-color: darkcyan;
+      padding:10px;
+    }
+    p{
+      font-size: 20px;
+      margin-left:5px;
+    }
+    iframe{
+      float:left; 
+      margin-right :10px; 
+      margin-left: 10px; 
+      border:darkcyan 5px solid;
+    }
+    img{
+      border: darkcyan 5px solid;
+      margin: 6px;
+    }
+    ul.linkler{
+      list-style-type: none;
+      margin: 0px;
+      padding: 10px;
+      overflow: auto;
+      height: 40px;
+      background-color:darkcyan;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    ul.linkler li {
+      float: left;
+    }
+    ul.linkler li a, .altmenu-btn {
+      display: block;
+      color:rgb(4, 4, 58);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    ul.linkler li a:hover:not(.active), .altmenu:hover .altmenu-btn {
+      text-decoration: underline;
+      color:rgb(226, 190, 135);
+    }
+    ul.linkler li a.active {
+      color:orangered;
+      text-decoration: underline;
+    }
+    li.altmenu {
+      display: block;
+    }
+    .altmenu-icerik {
+      display: none;
+      position: absolute;
+      background-color:darkcyan;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .altmenu-icerik a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .altmenu-icerik a:hover {
+      color:black;
+    }
+    .altmenu:hover .altmenu-icerik {
+      display: block;
+    }
+    div.filmler{
+      border:6px  darkcyan solid;
+      height:420px;
+      margin-top: 4px;
+    }
+    span.baslıklar{
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      float:left;
+      color:rgb(4, 4, 58);
+    }
+    @media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    div.filmler{width:100%; height: 100%;}
+    p{margin-left:auto;margin-right: auto;}
+    
+}
+div.filmler a{
+  background-color:darkcyan;
+  color:rgb(4, 4, 58);
+  padding: 4px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+div.filmler a:hover{
+  opacity: 0,6;
+  color:orangered;
+}
+div.filmler h1{
+  color:rgb(4, 4, 58);
+}
+
+
+div.link {
+	
+    text-decoration: none;
+    float:left;
+    width: 43%;
+    text-align: center;
+}
+
+ul.verticallist {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+ul.verticallist li {
+	display:block;
+	background-color: darkcyan;
+	margin:5px;
+    padding: 10px;
+}
+
+ul.verticallist li a {
+	text-decoration:none;
+	color:rgb(4, 4, 58);
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size:20px;
+	display:block;
+    
+}
+
+ul.verticallist li a:hover {
+	color:rgb(226, 190, 135);
+    text-decoration: underline;
+}
+</style>
+</head>
+
+
+
+<body>
+  <ul class="linkler">
+    <li><a href="ındex.html">ABOUT US</a></li>
+    <li><a href="history.html">HISTORY</a></li>
+    <li class="altmenu">
+      <a href="foreign.html" class="altmenu-btn">FOREIGN MOVIES</a>
+      <div class="altmenu-icerik">
+        <a href="actıon-foreign.html">Action</a>
+        <a href="comedy-foreign.html">Comedy</a>
+        <a href="horror-foreign.html">Horror</a>
+        <a href="rommance-foreign.html">Romance</a>
+        <a href="biography-foreign.html">Biography</a>
+      </div>        
+    </li>
+    <li class="altmenu">
+        <a href="domestic.html" class="altmenu-btn active">DOMESTIC MOVIES</a>
+        <div class="altmenu-icerik">
+          <a href="actıon-domestic.html" >Action</a>
+          <a href="comedy-domestic.html">Comedy</a>
+          <a href="horror-domestic.html">Horror</a>
+          <a href="rommance-domestic.html">Romance</a>
+          <a href="biography-domestic.html">Biography</a>
+        </div>        
+    </li>
+    <li><a href="yeşilçam.html">YESILCAM</a></li>
+    <li><a href="film-series.html">FILM SERIES</a></li>
+    <li><a href="cinema.html">CINEMAS</a></li>
+    <li><a href="help_us.html">HELP US</a></li>
+  </ul>
+
+<h1>DOMESTIC MOVIES</h1>
+<img src="domestic.jpg" style="width:55%; height: 228px; float:left;">
+<div class="link">
+<ul class="verticallist">
+<li><a href="actıon-domestic.html" class="link">Action</a></li>
+<li><a href="comedy-domestic.html" class="link">Comedy</a></li>
+<li><a href="horror-domestic.html" class="link">Horror</a></li>
+<li><a href="rommance-domestic.html" class="link">Romance</a></li>
+<li><a href="biography-domestic.html" class="link">Biography</a></li>
+</ul>
+</div>
+
+
+<p>&nbsp;Cinema of Turkey or Turkish cinema (also old known as Yeşilçam literally means The Green Pine in Turkish language), (Turkish pronunciation: [ˈjeʃiltʃam]) is the sobriquet that refers to the Turkish film art and industry. It is an important part of Turkish culture, and has flourished over the years, delivering entertainment to audiences in Turkey, Turkish expatriates across Europe, and more recently prospering in the Arab world and to a lesser extent, the rest of the world. </p>
+<p>&nbsp;The first film exhibited in the Ottoman Empire was the Lumière Brothers' 1895 film, L'Arrivée d'un train en gare de La Ciotat, which was shown in Istanbul in 1896. The Weavers (1905), by the Manaki brothers, was the first film made in the Ottoman Empire.
+The earliest surviving film made in what is present-day Turkey was a documentary entitled Ayastefanos'taki Rus Abidesinin Yıkılışı (Demolition of the Russian Monument at San Stefano), directed by Fuat Uzkınay and completed in 1914. The first narrative film, Sedat Simavi's The Spy, was released in 1917. Turkey's first sound film was shown in 1931.</p>
+<footer style="background-color:darkcyan; padding:10px; margin-top: 5px; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:rgb(4, 4, 58); font-size: 20px;">Copyright &copy; Yağmur Dere</footer>
+
+</body>
+</html>

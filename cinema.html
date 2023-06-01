@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOVIE RECOMENDATION | Cinemas </title>
+<link rel="icon" type="image/x-icon" href="icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta charset="UTF-8">
+<meta name="keywords" content="Turkey tour, holiday, hotel, ">
+<meta name="description" content="Website of Yeditepe University">
+<meta name="author" content="Yagmur dere">
+
+<style>
+    body{
+      margin: 10px;
+      background-color:darkgray;
+    }
+    h1{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:orangered;
+      text-decoration: underline;
+      text-align: center;
+     
+    }
+    h2{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:orangered;
+      text-decoration: underline;
+    }
+    h3{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:orangered;
+    }
+    p{
+      font-size: 20px;
+      margin-left:5px;
+    }
+    iframe{
+      float:left; 
+      margin-right :10px; 
+      margin-left: 10px; 
+      border:darkcyan 5px solid;
+    }
+    img{
+      border: darkcyan 5px solid;
+      margin: 6px;
+    }
+    ul.linkler{
+      list-style-type: none;
+      margin: 0px;
+      padding: 10px;
+      overflow: auto;
+      height: 40px;
+      background-color:darkcyan;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    ul.linkler li {
+      float: left;
+    }
+    ul.linkler li a, .altmenu-btn {
+      display: block;
+      color:rgb(4, 4, 58);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    ul.linkler li a:hover:not(.active), .altmenu:hover .altmenu-btn {
+      text-decoration: underline;
+      color:rgb(226, 190, 135);
+    }
+    ul.linkler li a.active {
+      color:orangered;
+      text-decoration: underline;
+    }
+    li.altmenu {
+      display: block;
+    }
+    .altmenu-icerik {
+      display: none;
+      position: absolute;
+      background-color:darkcyan;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .altmenu-icerik a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .altmenu-icerik a:hover {
+      color:black;
+    }
+    .altmenu:hover .altmenu-icerik {
+      display: block;
+    }
+    div.filmler{
+      border:6px  darkcyan solid;
+      height:420px;
+      margin-top: 4px;
+    }
+    span.baslıklar{
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      float:left;
+      color:rgb(4, 4, 58);
+    }
+    @media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    div.filmler{width:100%; height: 100%;}
+    p{margin-left:auto;margin-right: auto;}
+    
+}
+a.cinema{
+  background-color:darkcyan;
+  color:rgb(4, 4, 58);
+  padding: 4px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  
+}
+a.cinema:hover{
+  opacity: 0,6;
+  color:rgb(226, 190, 135);
+}
+
+</style>
+</head>
+
+
+
+<body>
+  <ul class="linkler">
+    <li><a href="ındex.html">ABOUT US</a></li>
+    <li><a href="history.html">HISTORY</a></li>
+    <li class="altmenu">
+      <a href="foreign.html" class="altmenu-btn">FOREIGN MOVIES</a>
+      <div class="altmenu-icerik">
+        <a href="actıon-foreign.html">Action</a>
+        <a href="comedy-foreign.html">Comedy</a>
+        <a href="horror-foreign.html">Horror</a>
+        <a href="rommance-foreign.html">Romance</a>
+        <a href="biography-foreign.html">Bıography</a>
+      </div>        
+    </li>
+    <li class="altmenu">
+        <a href="domestic.html" class="altmenu-btn">DOMESTIC MOVIES</a>
+        <div class="altmenu-icerik">
+          <a href="actıon-domestic.html" >Action</a>
+          <a href="comedy-domestic.html">Comedy</a>
+          <a href="horror-domestic.html">Horror</a>
+          <a href="rommance-domestic.html">Romance</a>
+          <a href="biography-domestic.html">Biography</a>
+        </div>        
+    </li>
+    <li><a href="yeşilçam.html">YESILCAM</a></li>
+    <li><a href="film-series.html">FILM SERIES</a></li>
+    <li><a href="cinema.html" class="active">CINEMAS</a></li>
+    <li><a href="help_us.html">HELP US</a></li>
+  </ul>
+<h1>RECOMMENDATIONS FOR MOVIE THEATERS IN TURKEY</h1>
+<p>&nbsp;Cinemaximum cinema has to offer in 2013 with the services and technological innovations on the world's largest association UNIC (International Union of Cinemas) of the year “by the international theater group” CGV Mars cinema group has received the award, cinema, enterprises and cities, with the number 98 37 826 Turkey's largest cinema chain in the salon. Below are the movie theaters that I recommend to you and that I like most.</p>
+<h2>FOR ASIA:</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.053530745322!2d29.05266321488275!3d41.00220152774859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7fa7f11fbe3%3A0x696ab65edc9a76a!2sCinemaximum!5e0!3m2!1str!2str!4v1652465384432!5m2!1str!2str" name="main_iframe" width="600" height="450" style="border:4px darkcyan solid;float:right;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h3>Akasya Mall</h3>
+<p>&nbsp;Cinemaximum Akasya is located on the top floor of the Akasya shopping mall in Acibadem and has private movie theaters such as Screen X, Gold class and IMAX</p>
+<p>Adress: Acıbadem Mahallesi Çeçen Sokak, Akasya Avm No:25, 34660 Üsküdar/İstanbul</p>
+<p>Phone: 0850 220 0967</p>
+<a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.053530745322!2d29.05266321488275!3d41.00220152774859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7fa7f11fbe3%3A0x696ab65edc9a76a!2sCinemaximum!5e0!3m2!1str!2str!4v1652465384432!5m2!1str!2str" target="main_iframe" class="cinema" >Cinemaximum Akasya</a>
+
+<h3>Emaar Square Mall</h3>
+<p>&nbsp;Cinemaximum Emaar is located on the dining floor of Emaar Shopping Mall in Ünalan and has private movie theaters such as 4DX, Gold class and MPX</p>
+<p>Adress: Ünalan, Ayazma Cd. No:78, 34700 Üsküdar/İstanbul</p>
+<p>Phone: 0850 220 0967</p>
+<a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.0405921521674!2d29.067212914882777!3d41.00248472773113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7dfa4657633%3A0x6c585f620a835096!2sCinemaximum%20Emaar%20Square%20Mall!5e0!3m2!1str!2str!4v1652467026659!5m2!1str!2str"  target="main_iframe" class="cinema" >Cinemaximum Emaar</a>
+
+<h2>FOR EUROPE:</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.570256710866!2d29.007648614885426!3d41.0783854230576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab748a7a1c06b%3A0xeb27487bc13233b7!2sCinemaximum%20Kanyon!5e0!3m2!1str!2str!4v1652469696846!5m2!1str!2str" name="main_iframe2" width="600" height="450" style="border:4px darkcyan solid;float:left;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h3>Kanyon Mall</h3>
+<p>&nbsp;Cinemaximum Kanyon is located on the top floor of Kanyon Shopping Mall in Levent and has private movie theaters such as Gold class and Screen X</p>
+<p>Adress: Esentepe Mahallesi Büyükdere Caddesi, Kanyon AVM No:185, 34330, 34394 Şişli/İstanbul</p>
+<p>Phone: 0850 220 0967</p>
+<a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.570256710866!2d29.007648614885426!3d41.0783854230576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab748a7a1c06b%3A0xeb27487bc13233b7!2sCinemaximum%20Kanyon!5e0!3m2!1str!2str!4v1652469696846!5m2!1str!2str"  target="main_iframe2" class="cinema" >Cinemaximum Kanyon</a>
+
+
+<h3>Istinye Park Mall</h3>
+<p>&nbsp;Cinemaximum Istinye is located on the dining floor of Istinye Park Shopping Mall in Event and has private movie theaters such as IMAX, Gold class and 4DX</p>
+<p>Adress: İstinye Bayırı Cad, İstinye Park AVM No:11, 34460</p>
+<p>Phone: 0850 220 0967</p>
+<a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.121081451942!2d29.030198114886396!3d41.11004662110595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab592c4a9f397%3A0x38c768adc5beb16!2sCinemaximum%20%C4%B0stinye%20Park!5e0!3m2!1str!2str!4v1652470627077!5m2!1str!2str" target="main_iframe2" class="cinema" >Cinemaximum Istinye Park</a>
+
+<footer style="background-color:darkcyan; padding:10px; margin-top: 5px; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:rgb(4, 4, 58); font-size: 20px;">Copyright &copy; Yağmur Dere</footer>
+
+</body>
+</html>

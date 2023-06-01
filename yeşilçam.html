@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOVIE RECOMENDATION | Yesilcam movies </title>
+<link rel="icon" type="image/x-icon" href="icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta charset="UTF-8">
+<meta name="keywords" content="Turkey tour, holiday, hotel, ">
+<meta name="description" content="Website of Yeditepe University">
+<meta name="author" content="Yagmur dere">
+
+<style>
+    body{
+      margin: 10px;
+      background-color:darkgray;
+    }
+    h1{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    p{
+      font-size: 20px;
+    }
+    iframe{
+      float:left; 
+      margin-right :10px; 
+      margin-left: 10px; 
+      border:darkcyan 5px solid;
+    }
+    img{
+      border: darkcyan 5px solid;
+      margin: 6px;
+    }
+    ul.linkler{
+      list-style-type: none;
+      margin: 0px;
+      padding: 10px;
+      overflow: auto;
+      height: 40px;
+      background-color:darkcyan;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    ul.linkler li {
+      float: left;
+    }
+    ul.linkler li a, .altmenu-btn {
+      display: block;
+      color:rgb(4, 4, 58);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    ul.linkler li a:hover:not(.active), .altmenu:hover .altmenu-btn {
+      text-decoration: underline;
+      color:rgb(226, 190, 135);
+    }
+    ul.linkler li a.active {
+      color:orangered;
+      text-decoration: underline;
+    }
+    li.altmenu {
+      display: block;
+    }
+    .altmenu-icerik {
+      display: none;
+      position: absolute;
+      background-color:darkcyan;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .altmenu-icerik a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .altmenu-icerik a:hover {
+      color:black;
+    }
+    .altmenu:hover .altmenu-icerik {
+      display: block;
+    }
+    div.filmler{
+      border:6px  darkcyan solid;
+      width: 48%;
+      margin-top: 4px;
+    }
+    span.baslıklar{
+      text-decoration: underline;
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      float:left;
+    }
+    @media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left: auto;margin-right: auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    div.filmler{width:100%; height: 100%;}
+    p{margin-left:auto;margin-right: auto;}
+    
+}
+div.filmler a{
+  background-color:darkcyan;
+  color:darkblue;
+  padding: 4px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+div.filmler a:hover{
+  opacity: 0,6;
+  color:rgb(226, 190, 135);
+}
+div.filmler h1{
+  color:rgb(4, 4, 58);
+}
+
+</style>
+</head>
+
+<body>
+  <ul class="linkler">
+    <li><a href="ındex.html">ABOUT US</a></li>
+    <li><a href="history.html">HISTORY</a></li>
+    <li class="altmenu">
+      <a href="foreign.html" class="altmenu-btn">FOREIGN MOVIES</a>
+      <div class="altmenu-icerik">
+        <a href="actıon-foreign.html">Action</a>
+        <a href="comedy-foreign.html">Comedy</a>
+        <a href="horror-foreign.html">Horror</a>
+        <a href="rommance-foreign.html">Romance</a>
+        <a href="biography-foreign.html">Bıography</a>
+      </div>        
+    </li>
+    <li class="altmenu">
+        <a href="domestic.html" class="altmenu-btn">DOMESTIC MOVIES</a>
+        <div class="altmenu-icerik">
+          <a href="actıon-domestic.html">Action</a>
+          <a href="comedy-domestic.html">Comedy</a>
+          <a href="horror-domestic.html">Horror</a>
+          <a href="rommance-domestic.html">Romance</a>
+          <a href="biography-domestic.html">Biography</a>
+        </div>        
+    </li>
+    <li><a href="yeşilçam.html" class="active">YESILCAM</a></li>
+    <li><a href="film-series.html">FILM SERIES</a></li>
+    <li><a href="cinema.html">CINEMAS</a></li>
+    <li><a href="help_us.html">HELP US</a></li>
+  </ul>
+
+<h1 style="background-color: darkcyan;text-align:center;color:orangered;padding:10px;margin:none;">YESILCAM</h1>
+<p>&nbsp; The history of Turkish cinema dates back to the last period of the Ottoman Empire. Although there is no clear information, it is believed that the arrival of the first cinema on the territory of Anatolia occurred during World War II. It is estimated that it was during the reign of Abdul Hamid. The establishment and rise of cinema as an industry in Turkey is related to World War II. It begins after World War II. The emergence of new directors and actors who will make a mark on the coming period will also be the beginning of the “Yeşilçam Cinema” as we know it today. after the 1950s, especially in Anatolia, Yeşilçam films, which began to become widespread with back-to-back movie theaters, begin to attract a large audience after that. As new films are made every day, new faces appear on the screen. It is a period when more than 200 films are produced annually in different genres, such as comedies, dramas, horror films. It is a golden era for our cinema, Yeşilçam.</p>
+
+<h1 style="color:orangered; text-align:center; text-decoration: underline;">THE YESILCAM MOVIES THAT I RECOMMEND TO YOU</h1>
+
+
+<div class="filmler" style="float:left;">
+  <img src="neşeli_günler.jpg" width="250" height="400" style="float:left;">
+  <h1 style="text-align: center; text-decoration: underline;">Neşeli Günler(1978)</h1>
+  <p> &nbsp; Kazım Efendi (Munir Özkul) and Saadet Hanım (Adile Naşit) are a couple who are pickling in their own way. they live together with their 6 children. They are constantly fighting over pickle juice. One day he's at home again, so they start arguing. The discussion grows. Eventually, Kazım Efendi takes all three of his children and leaves the house. Ms. Saadet takes the other three children. Decoupled after many years, the brothers find each other by chance and want to get together. But this will not be so easy, because their parents have been offended for many years.</p>
+  <iframe width="350" height="220" src="https://www.youtube.com/embed/6aSETIqEfso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>IMDB Rating:<span style="color:orangered">&nbsp; 8.7/10</span></h1>
+  <img src="star8.jpg" width="190" height="120" style="margin-left:10px;" >
+</div>
+
+<div class="filmler" style="float:right;">
+  <img src="mavi_boncuk.jpg" width="250" height="400" style="float:left;">
+  <h1 style="text-align: center; text-decoration: underline;">Mavi Boncuk(1974)</h1>
+  <p> &nbsp; 6 friends go to have fun at a casino where Emel Sayın works. They think that the money in their pockets will cover the fix menu in the newspaper ad. But when the account does not match the money in the ad, they first object to the high-coming account, and then they are mistreated. In order to take revenge on the owner of the casino, they decide to kidnap the headliner of the casino, Emel Sayın. Having successfully implemented their plans, the friends hide Emel Sayın in the attic of Baba Yaşar's house. Over time, a rapprochement arises between Emel Dec and his captors.</p>
+  <iframe width="350" height="220" src="https://www.youtube.com/embed/AVN88TRLD24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>IMDB Rating:<span style="color:orangered">&nbsp; 7.9/10</span></h1>
+  <img src="star7.jpg" width="190" height="120" style="margin-left:10px;" >
+</div>
+
+<div class="filmler" style="float:left;">
+  <img src="bizim_aile.jpg" width="250" height="410" style="float:left;">
+  <h1 style="text-align: center; text-decoration: underline;">Bizim Aile(1975)</h1>
+  <p> &nbsp; Yasar Usta's factory friend Talat Usta and his wife are trying to marry Yasar Usta and Melek Hanım.These efforts are successful, but Yasar Usta has four children and Melek Hanım has three children. But these children could not get along with each other,they were constantly fighting. When Alev's father, the girlfriend of Ferit, one of the sons of Melek Hanım, finds out that Alev is dear to Ferit, he does not leave Yasar Usta and his family alone and fires the first Yaşar Usta from his job, then throws the family out of their home. Yasar meets with Master Alev's father.Alev's father, Mr. Saim, realizes his mistake and gives their house back to them.</p>
+  <iframe width="350" height="220" src="https://www.youtube.com/embed/N7x-2ZYGSCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>IMDB Rating:<span style="color:orangered">&nbsp; 8.4/10</span></h1>
+  <img src="star8.jpg" width="190" height="120" style="margin-left:10px;" >
+</div>
+
+<div class="filmler" style="float:right;">
+  <img src="Hababam-sinifi.jpg" width="250" height="400" style="float:left;">
+  <h1 style="text-align: center; text-decoration: underline;">Hababam Sınıfı(1975)</h1>
+  <p> &nbsp; It is a film that tells funny and touching stories about the place where a class of dull students whose student lives are based on haughtiness and laziness live in a private Çamlıca High School. Thanks to their sharp wit, the students of this colorful character, who play all their teachers in the palm of their hands and bring down the school order and education system, are the most naughty class of both the school and our cinema.However, when this reign is shaken by the arrival of the new assistant principal appointed to the school, the Hababam Class is subjected to unforgettable lessons by Mahmut Hoca. </p>
+  <a href="https://tr.wikipedia.org/wiki/Hababam_S%C4%B1n%C4%B1f%C4%B1_(film_serisi)" target="_blank" >You can see other Hababam sınıfı movies here.</a>
+  <iframe width="350" height="220" src="https://www.youtube.com/embed/3A-JM0LVYjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>IMDB Rating:<span style="color:orangered">&nbsp; 9.3/10</span></h1>
+  <img src="star9.jpg" width="190" height="120" style="margin-left:10px;" >
+</div>
+
+
+</body>
+</html>
